@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-06 10:18+0100\n"
+"POT-Creation-Date: 2023-03-06 18:58+0100\n"
 "PO-Revision-Date: 2023-03-04 18:01+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: eo\n"
@@ -36,25 +36,27 @@ msgstr "Saluton mondo"
 
 #: app/templates/index.html:10
 msgid "Lets all be unique together until we realise we are all the same."
-msgstr ""
+msgstr "Ni ĉiuj estu unikaj kune ĝis ni konscios, ke ni ĉiuj estas samaj."
 
 #: app/templates/index.html:11
 msgid "Two more days and all his problems would be solved."
-msgstr ""
+msgstr "Du pliajn tagojn kaj ĉiuj liaj problemoj estus solvitaj."
 
 #: app/templates/index.html:12
 msgid "Excitement replaced fear until the final moment."
-msgstr ""
+msgstr "Ekscitiĝo anstataŭigis timon ĝis la lasta momento."
 
 #: app/templates/index.html:13
 msgid "we replaced fear until the begin moment."
-msgstr "ni riplas "
+msgstr "ni anstataŭigis la timon ĝis la momento de la foriro. "
 
 #: app/templates/index.html:14
 msgid ""
 "Malls are great places to shop; I can find everything I need under one "
 "roof."
 msgstr ""
+"Butikcentroj estas bonegaj lokoj por butikumi; Mi povas trovi ĉion, kion "
+"mi bezonas sub unu tegmento."
 
 #: app/templates/index.html:15
 msgid "Bye!"
