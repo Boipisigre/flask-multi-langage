@@ -1,0 +1,66 @@
+# French translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-03-06 10:18+0100\n"
+"PO-Revision-Date: 2023-03-04 17:56+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: app/forms.py:6
+msgid "E-mail address"
+msgstr "Adresse courriel"
+
+#: app/templates/base.html:8
+msgid "Flask Multi Language"
+msgstr "Babel gestion des langues"
+
+#: app/templates/index.html:7
+msgid "user@example.com"
+msgstr "utilisateur@exemple.com"
+
+#: app/templates/index.html:9
+msgid "Hello world!"
+msgstr "Bonjour le monde"
+
+#: app/templates/index.html:10
+msgid "Lets all be unique together until we realise we are all the same."
+msgstr ""
+"Soyons tous uniques ensemble jusqu'à ce que nous réalisions que nous "
+"sommes tous les mêmes."
+
+#: app/templates/index.html:11
+msgid "Two more days and all his problems would be solved."
+msgstr "Deux jours de plus et tous ses problèmes seraient résolus."
+
+#: app/templates/index.html:12
+msgid "Excitement replaced fear until the final moment."
+msgstr "L'excitation a remplacé la peur jusqu'au dernier moment."
+
+#: app/templates/index.html:13
+msgid "we replaced fear until the begin moment."
+msgstr "nous avons remplacé la peur jusqu'au moment de départ."
+
+#: app/templates/index.html:14
+msgid ""
+"Malls are great places to shop; I can find everything I need under one "
+"roof."
+msgstr ""
+"Les centres commerciaux sont des endroits formidables pour faire du "
+"shopping ; je peux trouver tout ce dont j'ai besoin sous un  toit."
+
+#: app/templates/index.html:15
+msgid "Bye!"
+msgstr "Au revoir"
+

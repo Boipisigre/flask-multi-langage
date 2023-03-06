@@ -1,8 +1,10 @@
 from flask import render_template, redirect, request, session, url_for
 from app.forms import EmailForm
+from flask_babel import Babel
 from app import app, babel
 
-@babel.localeselector
+babel = Babel(app)
+
 def get_locale():
 	# If the user has set up the language manually it will be stored in the session
 	try:
@@ -12,6 +14,8 @@ def get_locale():
 	if language is not None:
 		return language
 	return request.accept_languages.best_match(app.config['LANGUAGES'].keys())
+
+babel.init_app(app, locale_selector=get_locale)
 
 @app.context_processor
 def inject_conf_var():
