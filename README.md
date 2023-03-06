@@ -1,10 +1,10 @@
-# Flask Multi-language
+# Flask Multi langue
 
-[![Actions Status](https://github.com/hazzillrodriguez/flask-multi-language/workflows/Run%20Tests/badge.svg)](https://github.com/hazzillrodriguez/flask-multi-language/actions)
-
-![Flask Multi-language](demo/demo.gif)
+This repository is a fork of the work of [Hazzill Rodriguez](https://github.com/hazzillrodriguez/flask-multi-language.git)
 
 Implement internationalization (i18n) and localization (l10n) support in your Flask application by adding your own translations, language support, and allow users to swap between languages using the language option switcher.
+
+I upgrade **Flask-Babel** to versio 3.0.1
 
 ## Built With
 
@@ -18,15 +18,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Git clone or download the project files.
 ```
-git clone https://github.com/hazzillrodriguez/flask-multi-language.git
-cd flask-multi-language
+git clone https://github.com/Boipisigre/flask-multi-langage.git
+cd flask-multi-langage
 ```
 
 2. Create and activate the virtual environment then install requirements.
+
+with pip
 ```
 python -m venv env
 source env/Scripts/activate
 pip install -r requirements.txt
+```
+
+with pipenv
+```
+pipenv shell
+pipenv install
 ```
 
 3. Start the development web server.
@@ -34,6 +42,10 @@ pip install -r requirements.txt
 export FLASK_APP=run
 export FLASK_ENV=development
 flask run
+```
+or
+```
+./lancer.bash
 ```
 
 ## Usage
@@ -43,9 +55,8 @@ Open `config.py` and add your own supported languages.
 class BaseConfig(object):
     # Here you can list all the languages ​​that you want to use in your application
     LANGUAGES = {
-        'en': 'English',
-        'zh': 'Chinese',
-        'de': 'German'
+        'eo': 'Esperanto',
+        'fr': 'Français'
     }
 ```
 If you need to be more specific, a country code can be added as well. For example, you could use `en-US`, `en-GB`, and `en-CA` to support American, British, and Canadian English as different languages.
@@ -127,8 +138,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Hazzill Rodriguez — [LinkedIn](https://www.linkedin.com/in/hazzillrodriguez/) — hazzillrodriguez@gmail.com
+ [BoipiSigre](mailto:BoipiSigre+git@protonmail.com)
 
 ## Acknowledgment
+* Hazzill Rodriguez — [LinkedIn](https://www.linkedin.com/in/hazzillrodriguez/) — hazzillrodriguez@gmail.com
 
 * [Miguel Grinberg — The Flask Mega-Tutorial Part XIII: I18n and L10n](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
