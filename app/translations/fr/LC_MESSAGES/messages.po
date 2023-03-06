@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-06 18:58+0100\n"
+"POT-Creation-Date: 2023-03-06 22:00+0100\n"
 "PO-Revision-Date: 2023-03-04 17:56+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -61,6 +61,9 @@ msgstr ""
 "shopping ; je peux trouver tout ce dont j'ai besoin sous un  toit."
 
 #: app/templates/index.html:15
+msgid "un test de texte en français."
+msgstr "un test de texte en français."
+
+#: app/templates/index.html:16
 msgid "Bye!"
 msgstr "Au revoir"
-
