@@ -3,7 +3,7 @@ from app.forms import EmailForm
 from flask_babel import Babel
 from app import app, babel
 
-babel = Babel(app)
+# babel = Babel(app)
 
 def get_locale():
 	# If the user has set up the language manually it will be stored in the session
