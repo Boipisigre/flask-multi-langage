@@ -94,6 +94,7 @@ flash(gettext('Your email or password is incorrect!'))
 ### Generating a language catalog
 
 After marking all the texts in your templates and python source code, you can now generate a new language catalog in the `translations` directory for the language you specified in the `<language-code>` option. To add a new language, use the command.
+for that you must export the **FLASK_APP=app/cli**
 ```
 flask translate init <language-code>
 ```
